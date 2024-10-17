@@ -6,7 +6,7 @@ module.exports = {
   async execute(senderId, args, pageAccessToken, sendMessage) {
     const prompt = args.join(' ');
     try {
-      sendMessage(senderId, { text: '💬 | asasaina en cours...' }, pageAccessToken);
+      sendMessage(senderId, { text: '💬 | 🫱🏻‍🫲🏽...' }, pageAccessToken);
       const response = await callGeminiAPI(prompt);
 
       // Split the response into chunks if it exceeds 2000 characters
